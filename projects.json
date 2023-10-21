@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Atirador",
+        "image": "./assets/atirador.jpg",
+        "tags": ["+16", "Ação/Thriller", "2007", "2h 06m"],
+        "link": "https://embedder.net/e/tt0822854/"
+    },
+    {
+       "name": "Infiltrado",
+       "image": "./assets/infiltrado.jpg",
+       "tags": ["+16", "Ação/Thriller", "2021", "1h 58m"],
+       "link": "https://embedder.net/e/tt11083552/"
+    },
+     {
+        "name": "Anônimo",
+        "image": "./assets/anonimo.jpg",
+        "tags": ["+18", "Ação/Thriller", "2021", "1h 31m"],
+        "link": "https://embedder.net/e/tt7888964/"
+    },
+    {
+        "name": "A Freira 2",
+        "image": "./assets/freira.jpg",
+        "tags": ["+16", "Terror/Mistério", "2023", "1h 50m"],
+        "link": "https://embedder.net/e/tt10160976/"
+    },
+    {
+        "name": "A Morte do Demônio: A Ascensão",
+        "image": "./assets/morte.jpeg",
+        "tags": ["+18", "Terror/Fantasia", "2023", "2horas"],
+        "link": "https://embedder.net/e/tt13345606/"
+    },
+    {
+        "name": "A Casa do Medo: Incidente em Ghostland",
+        "image": "./assets/casa.jpeg",
+        "tags": ["+16", "Terror/Drama", "2018", "1h 31m"],
+        "link": "https://embedder.net/e/tt6195094"
+    },
+    {
+        "name": "Up: Altas Aventuras",
+        "image": "./assets/up.jpg",
+        "tags": ["LIVRE", "Aventura/Infantil", "2009", "1h 36m"],
+        "link": "https://embedder.net/e/tt1049413"
+    },
+    {
+        "name": "Tá Dando Onda",
+        "image": "./assets/onde.jpg",
+        "tags": ["+12", "Aventura/Ação", "2007", "1h 25m"],
+        "link": "https://embedder.net/e/tt0423294"
+    },
+    {
+        "name": "Festa da Salsicha",
+        "image": "./assets/festa.jpg",
+        "tags": ["+16", "Comédi/Aventura", "2016", "1h 29m"],
+        "link": "https://embedder.net/e/tt1700841"
+    },
+    {
+        "name": "A Culpa é das Estrelas",
+        "image": "./assets/culpa.jpg",
+        "tags": ["+12", "Drama/Romance", "2014", "2h 06m"],
+        "link": "https://embedder.net/e/tt2582846"
+    },
+    {
+        "name": "Nasce uma Estrela",
+        "image": "./assets/estrela.png",
+        "tags": ["+16", "Drama/Romance", "2018", "2h 15m"],
+        "link": "https://embedder.net/e/tt1517451"
+    },
+    {
+        "name": "Como Eu Era Antes de Você",
+        "image": "./assets/era.jpg",
+        "tags": ["+12", "Drama/Romance", "2016", "1h 50m"],
+        "link": "https://embedder.net/e/tt2674426"
+    }
+
+
+]

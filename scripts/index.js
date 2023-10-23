@@ -1,12 +1,13 @@
-const elementProjects = document.getElementById('project__content')
+const elemProjects = document.getElementById('project__content')
 
-const createImage = (projectImage) => {
+const createImage = (projectImage, projectName) => {
     const elemPicture = document.createElement('picture')
-    const elemImg  =document.createElement('img')
+    const elemImg  = document.createElement('img')
 
     elemImg.setAttribute('src', projectImage)
+    elemImg.setAttribute('alt', 'Imagem do filme ' + projectName)
 
-    elemImg.appendChild(elemImg)
+    elemPicture.appendChild(elemImg)
 
     return elemPicture
 }
@@ -46,7 +47,7 @@ const createProject = (project, index) => {
     elemProject.classList.add('project')
 
     // add imagem da capa
-    elemProject.appendChild(createStrong(project.image))
+    elemProject.appendChild(createImage(project.image, project.name)) 
 
     // add nome do projeto
     elemProject.appendChild(createStrong(project.name))
@@ -59,8 +60,8 @@ const createProject = (project, index) => {
 
 const loadProjects = (projects) => {
     projects.forEach((project, index) => {
-        elemProject.appendChild(createProject(project, index))
-    })
+        elemProjects.appendChild(createProject(project, index))
+    });
 }
 
 fetch('./projects.json').then(Response => Response.json()).then(loadProjects)
